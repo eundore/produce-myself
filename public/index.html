@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+    <header>
+        <div class="topic" onclick="scrollMove('#topic_0')">{ 0 }</div>
+        <div class="topic" onclick="scrollMove('#topic_1')">{ 1 }</div>
+        <div class="topic" onclick="scrollMove('#topic_2')">{ 2 }</div>
+        <div class="topic" onclick="scrollMove('#topic_3')">{ 3 }</div>
+        <div class="topic" onclick="scrollMove('#topic_4')">{ 4 }</div>
+        <div class="topic" onclick="scrollMove('#topic_5')">{ 5 }</div>
+    </header>
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    <main role="main">
+        <div class="content" id="topic_0">
+            <div class="image">
+                <img src="img/img000.PNG" alt="">
+            </div>
+            <div class="letter">
+                <div class="wrap">
+                    <div class="question">
+                        <p>Hi, I'm Eunsol</p>
+                    </div>
+                    <div class="answer">
+                        <p>안녕하세요. 김은솔입니다. <br>
+                            지금부터 자기 소개 페이지를 시작하겠습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="topic_1">
+            <div class="image">
+                <img src="img/img001.PNG" alt="">
+            </div>
+            <div class="letter">
+                <div class="wrap">
+                    <div class="question">
+                        <p class="question_number">01.</p>
+                        <p class="question_main">관심 직무 또는 앞으로의 목표</p>
+                        <p class="question_sub">(프론트엔드 개발자 / 인공지능 서비스 기획자 등)</p>
+                    </div>
+                    <div class="answer">
+                        <p>프론트엔드 개발쪽 취업을 목표로 공부하고 있습니다. <br>
+                            퍼블리싱이 된 웹 페이지에 백엔드에서 받은 데이터를 연결 시켜주는 중간 다리 역할이 재밌었고 <br>
+                            화면의 흐름을 만들면서 시각화하는 작업이 재밌다고 느꼈습니다. <br>
+                            그래서 프론트엔드 파트가 매력적이라고 느껴서 이 과정에 참여하게 되었습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="topic_2">
+            <div class="letter">
+                <div class="wrap">
+                    <div class="question">
+                        <p class="question_number">02.</p>
+                        <p class="question_main">관심 분야 또는 기술</p>
+                        <p class="question_sub">(웹 / 장고 등)</p>
+                    </div>
+                    <div class="answer">
+                        <p>지금 html,css,javascript 등 가장 기초적인 언어를 공부하고 싶습니다. <br>
+                            기술은 알지만 깊이가 부족하다고 느껴서 알고리즘이나 모던 자바스크립트, 리팩터링 등  <br>
+                            좀 더 깊이있는 공부를 하고 싶습니다.  <br>
+                            이후에 React 와 같은 프레임워크를 배우고 싶습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="img/img002.PNG" alt="">
+            </div>
+        </div>
+       <div class="content" id="topic_3">
+            <div class="image">
+                <img src="img/img003.PNG" alt="">
+            </div>
+            <div class="letter">
+                <div class="wrap">
+                    <div class="question">
+                        <p class="question_number">03.</p>
+                        <p class="question_main">SW 엔지니어 트랙에서 가장 기대되는 점</p>
+                        <!-- <p class="question_sub"></p> -->
+                    </div>
+                    <div class="answer">
+                        <p> 혼자서 공부하기 힘들었던 부분들을 도움 받고 소통을 통해서 배우는 것들이 가장 기대가 됩니다. <br>
+                            이 과정을 통해서 얼마나 성장할지 기대가 되고 좋은 경험으로 남고 싶습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="content" id="topic_4">
+            <div class="letter">
+                <div class="wrap">
+                    <div class="question">
+                        <p class="question_number">04.</p>
+                        <p class="question_main">동료 레이서에게 하고 싶은 말</p>
+                        <!-- <p class="question_sub"></p> -->
+                    </div>
+                    <div class="answer">
+                        <p> 비대면으로 강의 듣게 되어 아쉽지만  <br> 
+                            추후에 진행되는 스터디나 팀 프로젝트를 통해서 많이 알아가고 친해졌으면 좋겠습니다. <br> 
+                            각자의 다른 이유로 모였지만 같이 좋은 성과를 냈으면 좋겠습니다. 반가워요!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="img/img004.PNG" alt="">
+            </div>
+        </div>
+       <div class="content" id="topic_5">
+            <div class="image">
+                <img src="img/img005.PNG" alt="">
+            </div>
+            <div class="letter">
+                <div class="wrap">
+                    <div class="question">
+                        <p class="question_number">05.</p>
+                        <p class="question_main">취미, 특기, 좋아하는 음료, 최근에 본 영화 <br> 
+                            또는 책 등 나를 표현할 수 있는 정보</p>
+                        <!-- <p class="question_sub"></p> -->
+                    </div>
+                    <div class="answer">
+                        <p>스트릿댄스 장르의 춤 추는 것도 좋아하고 사진 찍고 영상 촬영하는 것도 좋아합니다.<br>
+                            이터널 선샤인이라는 영화가 최애 영화이고 요즘 책은 아주 작은 습관의 힘이라는 책을 읽고 있습니다. <br>
+                            고양이를 키우고 있는 3년차 집사입니다. 강아지, 고양이 다 좋아해요❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <a href="https://www.instagram.com/seeoomeanssalt/" target="_blank">
+                <img src="img/instagram.png" alt="instagram.png" id="insta">
+            </a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
