@@ -179,3 +179,29 @@ footer #insta {
     top: 7px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  header .topic {
+    width: 100%;
+    height: 20px;
+    font-size: 8px;
+  }
+
+  main .content {
+    display: block !important;
+    margin-top: 80px;
+  }
+
+  main .content .image {
+    text-align: center;
+  }
+  main .content .image img {
+    position: static !important;
+    top: 0 !important;
+    transform: translateY(0%) !important;
+  }
+
+  main .content .letter {
+    margin: 20px;
+  }
+}
